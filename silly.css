@@ -1,0 +1,38 @@
+body{
+  background-color: palevioletred;
+  font-size: 20px;
+}
+  .title{
+    font-family:cursive;
+  }
+  .p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pp{
+    font-family: fantasy;
+    color: red;
+  }
+  .answer1{
+    background-color: aqua;
+    font-size: 20px;
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .answer2{
+    background-color: aqua;
+    font-size: 20px;
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .first{
+    background-color: rgb(23, 243, 23);
+    color: rgb(255, 0, 157);
+  }
+  .second{
+    background-color: red;
+    font-weight: bold;
+  }
