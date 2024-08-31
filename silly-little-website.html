@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maria ksmk</title>
+   <link rel="stylesheet"
+   href="silly.css"
+   >
+  </head>
+  <body>
+
+<p class="title"> Maria this is for you UwU</p>
+ 
+<p class="p"> well first hello there !
+  we have multiple option here as you see
+  let's press what we think is the right answer
+  </p>
+  <p class="pp">
+  GoodLuck :p
+</p>
+<p>
+  ────୨ৎ────
+</p>
+ <p class="p"> 
+  is maria the prettiest girl?</p>
+
+<button class="answer1"
+onclick="
+
+
+alert('bingo right answer !')
+button('first');
+
+
+">ofcouse she is!</button>
+
+
+
+<button class="answer2"
+onclick="
+alert('!!!!!!!!!!!!!!!!! \n HOW DARE YOU?????')
+button('second');
+
+"
+>nuh uh</button>
+
+<p>
+  ────୨ৎ────
+</p>
+<p class="p"> and thats the end mwah (∩˃ω˂∩)</p>
+
+<p>꒷꒦︶꒷꒦︶ ๋ ࣭ ⭑꒷꒦</p>
+
+<p class="p test"> 
+</p>
+
+
+<p class="p testt">
+ 
+</p>
+    <script></script>
+  </body>
+
+
+  <script>
+    /*
+    function firstbutton(){
+      const buttonFirst=document.querySelector('.answer1')
+      const parg=document.querySelector('.test')
+
+
+
+      if (pargg===document.querySelector('.testt'))
+        {
+        
+          pargg.innerHTML='';
+        }
+
+
+      if (!buttonFirst.classList.contains('first'))
+      {
+        buttonFirst.classList.add('first');
+        buttonFirst.innerHTML='Good job u cutie <3'
+
+      parg.innerHTML=`
+      you are a : 
+        <img src="images.jpg" class="image">
+        `
+      }
+      else {
+        buttonFirst.classList.remove('first');
+        parg.innerHTML=''
+      }
+
+    }
+*/
+/*
+  function secondbutton() {
+         
+          const buttonsecond=document.querySelector('.answer2')
+       
+
+          const pargg=document.querySelector('.testt')
+         if (!buttonsecond.classList.contains('second') )
+          {
+        buttonsecond.classList.add('second')
+        buttonsecond.innerHTML='YOU SUCK FR'
+        pargg.innerHTML=`
+          you are a : 
+        <img src="ima.jpg" class="image">
+        `
+         }
+      else {
+        buttonsecond.classList.remove('second');
+        pargg.innerHTML='';
+      }
+  
+        }
+*/
+ function button(selector){
+  let parg=''
+if(selector==='first') {
+          const buttonFirst=document.querySelector('.answer1')
+            parg=document.querySelector('.test')
+
+
+            if (!buttonFirst.classList.contains('first'))
+            {
+              buttonFirst.classList.add('first');
+              buttonFirst.innerHTML='Good job u cutie <3'
+              document.querySelector('.testt').innerHTML='';
+            parg.innerHTML=`
+            thank you , you are a : 
+            <img src="images.jpg" class="image">
+              `
+            }
+            else {
+              buttonFirst.classList.remove('first');
+              parg.innerHTML=''
+            }
+
+    }
+
+    else{
+      const buttonsecond=document.querySelector('.answer2')
+       
+
+       parg=document.querySelector('.testt')
+      if (!buttonsecond.classList.contains('second') )
+       {
+     buttonsecond.classList.add('second')
+     buttonsecond.innerHTML='YOU SUCK FR';
+     document.querySelector('.test').innerHTML='';
+     parg.innerHTML=`
+       you are a : 
+     <img src="ima.jpg" class="image">
+     `
+      }
+   else {
+     buttonsecond.classList.remove('second');
+     parg.innerHTML='';
+   }
+
+
+    }
+  }
+ 
+  </script>
+</html>
